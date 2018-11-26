@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans;
+}
+
+h1 {
+  text-align: center;
+}
+
+#canvas {
+  border: solid thin black;
+}
+
+#content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#canvas-wrapper {
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 5px;
+}
+
+#wasm-loaded {
+  border: solid thin black;
+  margin-left: 6px;
+  padding: 5px;
+}
+
+.loaded {
+  background-color: green;
+}
+
+.not-loaded {
+  background-color: red;
+}
